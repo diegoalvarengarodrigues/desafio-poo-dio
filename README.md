@@ -1,66 +1,66 @@
-# Desafio pr·tico de ProgramaÁ„o Orientada a Objetos
+# Desafio pr√°tico de Programa√ß√£o Orientada a Objetos
 
 Desafio de projeto do curso sobre POO na plataforma DIO.
-O objetivo principal È colocar em pr·tica umas das principais ferramentas da OO: ABSTRA«√O, ENCAPSULAMENTO, HERAN«A E POLIMORFISMO, atravÈs de um projeto Java.
+O objetivo principal √© colocar em pr√°tica umas das principais ferramentas da OO: ABSTRA√á√ÉO, ENCAPSULAMENTO, HERAN√áA E POLIMORFISMO, atrav√©s de um projeto Java.
 
-##Passo-a-Passo
+### Passo-a-Passo
 
-1. Vamos ABSTRAIR o DOMÕNIO Bootcamp e MODELAR seus ATRIBUTOS E M…TODOS
+1. Vamos ABSTRAIR o DOM√çNIO Bootcamp e MODELAR seus ATRIBUTOS E M√âTODOS
 2. Criaremos as CLASSES: Bootcamp, Cursos, Mentorias e Devs e vamos relaciona-las
-3. As CLASSES Curso, Mentoria e Devs tambÈm ser„o MODELADOS, ou seja, criaremos seus ATRIBUTOS E M…TODOS
-4. Para que o cÛdigo fique mais legÌvel e de f·cil manutenÁ„o, iremos utilizar de algumas das ferramentas que o PARADIGMA DE ORIENTA«√O A OBJETOS (POO) nos oferece: ABSTRA«√O, ENCAPSULAMENTO, HERAN«A E POLIMORFISMO
+3. As CLASSES Curso, Mentoria e Devs tamb√©m ser√£o MODELADOS, ou seja, criaremos seus ATRIBUTOS E M√âTODOS
+4. Para que o c√≥digo fique mais leg√≠vel e de f√°cil manuten√ß√£o, iremos utilizar de algumas das ferramentas que o PARADIGMA DE ORIENTA√á√ÉO A OBJETOS (POO) nos oferece: ABSTRA√á√ÉO, ENCAPSULAMENTO, HERAN√áA E POLIMORFISMO
 5. E para representar CLASSES que foram criadas e relacionadas, iremos transforma-las em OBJETOS
 
-##Paradigma de ProgramaÁ„o Orientado a Objetos (POO)
+## Paradigma de Programa√ß√£o Orientado a Objetos (POO)
 
-A vis„o de OrientaÁ„o a Objetos (OO) È aquela de um mundo de objetos que interagem.
-Este paradigma È um modelo de an·lise, projeto e programaÁ„o baseado na aproximaÁ„o entre o mundo real e o mundo virtual, atravÈs da criaÁ„o e interaÁ„o entre classes, atributos, mÈtodos, objetos, entre outros.
-S„o 4 os pilares principais do POO: ABSTRA«√O, ENCAPSULAMENTO, HERAN«A E POLIMORFISMO.
+A vis√£o de Orienta√ß√£o a Objetos (OO) √© aquela de um mundo de objetos que interagem.
+Este paradigma √© um modelo de an√°lise, projeto e programa√ß√£o baseado na aproxima√ß√£o entre o mundo real e o mundo virtual, atrav√©s da cria√ß√£o e intera√ß√£o entre classes, atributos, m√©todos, objetos, entre outros.
+S√£o 4 os pilares principais do POO: ABSTRA√á√ÉO, ENCAPSULAMENTO, HERAN√áA E POLIMORFISMO.
 
-##ABSTRA«√O:
+### ABSTRA√á√ÉO:
 
-Habilidade de concentrar-se nos aspectos essenciais de um domÌnio, ignorando caracterÌsticas menos importantes ou acidentais. Nesse contexto, objetos s„o abstraÁıes de entidades existentes no domÌnio em quest„o.
+Habilidade de concentrar-se nos aspectos essenciais de um dom√≠nio, ignorando caracter√≠sticas menos importantes ou acidentais. Nesse contexto, objetos s√£o abstra√ß√µes de entidades existentes no dom√≠nio em quest√£o.
 
-##ENCAPSULAMENTO:
+### ENCAPSULAMENTO:
 
-Encapsular significa esconder a implementaÁ„o dos objetos. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenÁ„o e a evoluÁ„o.
+Encapsular significa esconder a implementa√ß√£o dos objetos. O encapsulamento favorece principalmente dois aspectos de um sistema: a manuten√ß√£o e a evolu√ß√£o.
 
-##HERAN«A:
+### HERAN√áA:
 
-Permite que vocÍ defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros s„o herdados È chamada de classe base. A classe que herda os membros da classe base È chamada de classe derivada.
+Permite que voc√™ defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros s√£o herdados √© chamada de classe base. A classe que herda os membros da classe base √© chamada de classe derivada.
 
-##POLIMORFISMO:
+### POLIMORFISMO:
 
-Capacidade de um objeto poder ser referenciado de v·rias formas. Cuidado, polimorfismo n„o quer dizer que o objeto fica se transformando, muito pelo contr·rio, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar È a maneira como nos referimos a ele. A capacidade de tratar objetos criados a partir das classes especÌficas como objetos de uma classe genÈrica È chamada de polimorfismo.
+Capacidade de um objeto poder ser referenciado de v√°rias formas. Cuidado, polimorfismo n√£o quer dizer que o objeto fica se transformando, muito pelo contr√°rio, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar √© a maneira como nos referimos a ele. A capacidade de tratar objetos criados a partir das classes espec√≠ficas como objetos de uma classe gen√©rica √© chamada de polimorfismo.
 
 
-##CONCEITOS FUNDAMENTAIS POO
+## CONCEITOS FUNDAMENTAIS POO
 
-##DOMÕNIO:
+### DOM√çNIO:
 
-DomÌnio da aplicaÁ„o, tambÈm conhecida como camada de negÛcio ou de objetos de negÛcio, È aquela onde est„o localizadas as classes que fazem parte do domÌnio do problema, ou seja, classes correspondentes a objetos que fazem parte da descriÁ„o do problema.
+Dom√≠nio da aplica√ß√£o, tamb√©m conhecida como camada de neg√≥cio ou de objetos de neg√≥cio, √© aquela onde est√£o localizadas as classes que fazem parte do dom√≠nio do problema, ou seja, classes correspondentes a objetos que fazem parte da descri√ß√£o do problema.
 
-##CLASSE:
+### CLASSE:
 
-Um elemento do cÛdigo que tem a funÁ„o de representar objetos do mundo real. Dentro dela È comum declararmos atributos e mÈtodos, que representam, respectivamente, as caracterÌsticas e comportamentos desse objeto.
+Um elemento do c√≥digo que tem a fun√ß√£o de representar objetos do mundo real. Dentro dela √© comum declararmos atributos e m√©todos, que representam, respectivamente, as caracter√≠sticas e comportamentos desse objeto.
 
-##ATRIBUTO:
+### ATRIBUTO:
 
-Atributos s„o, basicamente, a estrutura de dados que vai representar a classe. Os atributos tambÈm s„o conhecidos como VARI¡VEL DE CLASSE, e podem ser divididos em dois tipos b·sicos: atributos de inst‚ncia e de classe.
+Atributos s√£o, basicamente, a estrutura de dados que vai representar a classe. Os atributos tamb√©m s√£o conhecidos como VARI√ÅVEL DE CLASSE, e podem ser divididos em dois tipos b√°sicos: atributos de inst√¢ncia e de classe.
 
-##VARI¡VEL:
+### VARI√ÅVEL:
 
-Uma ìregi„o de memÛria (do computador) previamente identificada cuja finalidade È armazenar os dados ou informaÁıes de um programa por um determinado espaÁo de tempoî.
+Uma ‚Äúregi√£o de mem√≥ria (do computador) previamente identificada cuja finalidade √© armazenar os dados ou informa√ß√µes de um programa por um determinado espa√ßo de tempo‚Äù.
 
-##M…TODO:
+### M√âTODO:
 
-Os mÈtodos representam os estados e aÁıes dos objetos e classes.
+Os m√©todos representam os estados e a√ß√µes dos objetos e classes.
 
-##OBJETO:
+### OBJETO:
 
-Em POO, objeto È um "molde" de uma determinada classe, que passa a existir a partir de uma inst‚ncia da classe. A classe define o comportamento do objeto, usando atributos (propriedades) e mÈtodos (aÁıes). Objeto em ciÍncia da computaÁ„o, È uma referÍncia a um local da memÛria que possui um valor. Um objeto pode ser uma vari·vel, funÁ„o, ou estrutura de dados.
+Em POO, objeto √© um "molde" de uma determinada classe, que passa a existir a partir de uma inst√¢ncia da classe. A classe define o comportamento do objeto, usando atributos (propriedades) e m√©todos (a√ß√µes). Objeto em ci√™ncia da computa√ß√£o, √© uma refer√™ncia a um local da mem√≥ria que possui um valor. Um objeto pode ser uma vari√°vel, fun√ß√£o, ou estrutura de dados.
 
-##INST¬NCIA:
+### INST√ÇNCIA:
 
-Uma inst‚ncia de uma classe È um novo objeto criado dessa classe, com o operador new. Instanciar uma classe È criar um novo objeto do mesmo tipo dessa classe. Uma classe somente poder· ser utilizada apÛs ser instanciada.
+Uma inst√¢ncia de uma classe √© um novo objeto criado dessa classe, com o operador new. Instanciar uma classe √© criar um novo objeto do mesmo tipo dessa classe. Uma classe somente poder√° ser utilizada ap√≥s ser instanciada.
 
